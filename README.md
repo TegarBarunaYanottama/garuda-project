@@ -1,66 +1,87 @@
 <<<<<<< HEAD
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div class="hero-section">
+  <div class="overlay"></div>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+  <div class="content-box">
+    <img src="{{ asset('images/Garuda-Logo-Vertical-dalam.jpg') }}" class="logo">
+    <h1 class="brand-title">Garuda Indonesia</h1>
+    <div class="subtitle">National Flag Carrier • Tahun 2025</div>
 
-## About Laravel
+    <h2 class="brand-title" style="font-size: 24px; margin-top: 10px;">Airport Operations Dashboard</h2>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+    <p class="welcome-text">
+      Selamat Datang di Garuda Indonesia dan selamat berlibur.
+    </p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+    <a href="/dashboard" class="btn-enter">
+      Enter Dashboard
+    </a>
+  </div>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+  <div class="footer-text">
+    © 2025 Garuda Indonesia Airport Operations. All rights reserved.
+  </div>
+</div>
+>>>>>>> HEAD
 
-## Learning Laravel
+# Garuda-Project: Sistem Manajemen Tiket Pesawat
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**Garuda-Project** adalah aplikasi digital yang membantu agen perjalanan, maskapai, atau organisasi mengelola pemesanan dan distribusi tiket pesawat secara mudah, rapi, dan efisien. Aplikasi ini menyediakan fitur detail penerbangan, formulir pemesanan online, serta pemantauan status tiket secara real-time.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Fitur Utama
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### ✈️ Manajemen Penerbangan
+- Menambahkan penerbangan baru dengan cepat dan mudah.
+- Mengedit atau menghapus penerbangan yang sudah ada.
+- Setiap penerbangan mencakup informasi:
+  - Nama penerbangan / Rute (Contoh: Jakarta – Bali)
+  - Tanggal keberangkatan
+  - ⏰ Waktu keberangkatan
+  - ⚙️ Opsi: **Detail**, **Edit**, **Hapus**
 
-## Laravel Sponsors
+### 🎫 Formulir Pemesanan & Pemantauan Real-Time
+Pada menu **Detail** setiap penerbangan, admin dapat:
+- Melihat formulir pemesanan lengkap.
+- Menyalin link pemesanan (**Copy Link**) untuk dibagikan kepada pelanggan.
+- Mengekspor data pemesanan ke format PDF (**Export ke PDF**).
+- Melihat daftar penumpang beserta status tiketnya secara **real-time**.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Formulir pemesanan yang diisi pelanggan mencakup:
+- Nama Penumpang
+- Nomor Identitas (KTP/Paspor)
+- Email & No. HP
+- ✍️ Tanda tangan digital (opsional)
 
-### Premium Partners
+### 🔄 Alur Kerja Sederhana
+1. **Tambah atau Pilih Penerbangan** – Buat penerbangan baru atau pilih dari daftar yang tersedia.
+2. **Lihat Detail** – Klik tombol **Detail** untuk akses formulir dan opsi lanjutan.
+3. **Copy Link** – Salin dan sebarkan link pemesanan ke calon penumpang.
+4. **Isi Pemesanan** – Penumpang mengisi data diri dan konfirmasi melalui form online.
+5. **Lihat Daftar Penumpang** – Daftar penumpang diperbarui secara real-time.
+6. **Export & Kelola Penerbangan** – Ekspor laporan ke PDF, edit, atau hapus penerbangan sesuai kebutuhan.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## Teknologi yang Digunakan
+- **HTML**
+- ⚙️ **Laravel** (Backend Framework)
+- 💾 **Database**: MySQL / PostgreSQL
+- 🧪 **Postman** (Testing API)
+- 🎨 **Bootstrap** (Frontend Styling)
 
-## Contributing
+## Use Case
+- **Agen Travel** – Memudahkan proses pemesanan tiket untuk klien.
+- **Perusahaan Perjalanan Dinas** – Mengelola pemesanan tiket karyawan secara terpusat.
+- **Event Organizer** – Menyediakan tiket transportasi bagi peserta event.
+- **Penumpang Individual** – Memesan tiket langsung via link tanpa harus datang ke kantor.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Keamanan & Integritas Data
+- **Integritas Data** – Semua data pemesanan tersimpan aman di database terpusat.
+- **Kontrol Akses** – Hanya pengguna terotorisasi (admin) yang dapat mengelola penerbangan dan data.
+- **Export & Backup** – Kemudahan ekspor data ke PDF sebagai bukti pemesanan resmi.
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Garuda-Project dirancang untuk mendukung proses pemesanan tiket pesawat modern, paperless, dan user-friendly — cocok digunakan oleh admin maupun penumpang dari berbagai jenis organisasi atau individu.
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
 # garuda-project
 ## FRAMEWORK-UAS-TEGAR BARUNA(2402030006)
 ### Membuat sebuah sistem membeli karcis pesawat berbasis tiket
