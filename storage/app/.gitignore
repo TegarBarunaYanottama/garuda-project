@@ -1,4 +1,17 @@
-*
-!private/
-!public/
-!.gitignore
+# Laravel specific
+/vendor
+.env
+.env.backup
+/storage
+/node_modules
+/public/storage
+/bootstrap/cache/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+/storage/logs/*

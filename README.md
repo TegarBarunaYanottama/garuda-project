@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -59,3 +60,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# garuda-project
+## FRAMEWORK-UAS-TEGAR BARUNA(2402030006)
+### Membuat sebuah sistem membeli karcis pesawat berbasis tiket
+#### aplikasi web berbasis Laravel yang dikembangkan sebagai bagian dari inisiatif internal.
+#### untuk mendukung operasional digital, pengelolaan konten, dan interaksi pengguna dalam lingkungan akademik maupun komunitas.
+#### Dikembangkan menggunakan PHP 8.x, Laravel 10, MySQL, dan diperkaya dengan komponen frontend seperti Bootstrap, Tailwind CSS.
+#### Garuda Project tidak hanya berfungsi sebagai platform teknis, tetapi juga sebagai sarana pembelajaran dan kolaborasi bagi tim pengembang muda, khususnya dari lingkungan Alfa Prima Campus, Denpasar,
+>>>>>>> 60d0d233c85f128451def0ee96a0afc2e1b953dd

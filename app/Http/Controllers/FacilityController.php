@@ -35,7 +35,6 @@ class FacilityController extends Controller
             'description' => 'nullable|string',
             'location' => 'nullable|string|max:255',
         ]);
-
         return redirect()->route('facility.index')->with('success', 'Fasilitas berhasil ditambahkan.');
     }
 
