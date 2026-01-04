@@ -1,27 +1,14 @@
 <<<<<<< HEAD
-<div class="hero-section">
-  <div class="overlay"></div>
-
-  <div class="content-box">
-    <img src="{{ asset('images/Garuda-Logo-Vertical-dalam.jpg') }}" class="logo">
-    <h1 class="brand-title">Garuda Indonesia</h1>
-    <div class="subtitle">National Flag Carrier • Tahun 2025</div>
-
-    <h2 class="brand-title" style="font-size: 24px; margin-top: 10px;">Airport Operations Dashboard</h2>
-
-    <p class="welcome-text">
-      Selamat Datang di Garuda Indonesia dan selamat berlibur.
-    </p>
-
-    <a href="/dashboard" class="btn-enter">
-      Enter Dashboard
-    </a>
-  </div>
-
-  <div class="footer-text">
-    © 2025 Garuda Indonesia Airport Operations. All rights reserved.
-  </div>
+<!-- Dashboard Preview -->
+<div align="center">
+  <img src="https://github.com/TegarBarunaYanottama/garuda-project/raw/main/docs/images/dashboard-preview.png" alt="Garuda Indonesia Airport Operations Dashboard" width="800"/>
 </div>
+
+<!-- Project Structure & Local View -->
+<div align="center">
+  <img src="https://github.com/TegarBarunaYanottama/garuda-project/raw/main/docs/images/project-structure-local.png" alt="Garuda-Project Folder Structure and Local View in VS Code" width="800"/>
+</div>
+
 >>>>>>> HEAD
 
 # Garuda-Project: Sistem Manajemen Tiket Pesawat
